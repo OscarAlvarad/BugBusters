@@ -1,0 +1,1724 @@
+fileFormatVersion: 2
+guid: 20d03980e90df6f4abec5a3bc2a21daa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StarButtons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1973
+        width: 1172
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f97fe7933c8d17439884833003e96de
+      internalID: -1814829134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_1
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 2392
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b7482cbcc8db4c97519d6d97cd004
+      internalID: -103961077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_2
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1992
+        width: 1199
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468de3e1cff22fd4f984f553c3805f81
+      internalID: -415789609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_3
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2378
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c64ae2ba01bec45ba5762d7b2eb8e2
+      internalID: 2050088946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_4
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2363
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1c3ae6c818ddb45839b61e96320013
+      internalID: 1276652853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_5
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2356
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109f01a31fa627647883c8f6b00bd07d
+      internalID: -1713619260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_6
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 2342
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1321ee2f99da9444483d56ec4d098ac3
+      internalID: 815124356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_7
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 2013
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5140c92ea9ce84aa26ba6da019dd33
+      internalID: 1382481742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_8
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2005
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0339bf2142c8bdf43ba90ae86957f11c
+      internalID: -345355875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_9
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1998
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bc041c4f02f4d4cbb9cc1f0873cf33
+      internalID: 559919522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_10
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1991
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be680c96c0ec7e04b9c467efc6adffef
+      internalID: 1496805888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_11
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1984
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500d3a65568e7314eaa666bfafb3e9ed
+      internalID: -888874680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_12
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1977
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3309bd4216ebb2a4a9c7db7b4f4792ac
+      internalID: 519396064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_13
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1969
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1493ca875a287044dbc6dd0f5bf9dc9c
+      internalID: -1786972092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1962
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b5557512a759c438586655d9ee27db
+      internalID: -1038753401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_15
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1323
+        width: 1173
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1658409666c9944a6a47b5cd078cf5
+      internalID: 594530048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_16
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1809
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4177f05b5c4e443a727128a5a0c732
+      internalID: -828300852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_17
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1801
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a3467fa1d369f40874cf0ff3eeeb8d
+      internalID: 585692264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_18
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1794
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b9af73cc0ad0a499ec5bc17e876b3c
+      internalID: 626409052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_19
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1787
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8acd46667df844c8802bc76c8d978d
+      internalID: -708264562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_20
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1780
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4cdaefaa5a9b14fbc3ed29f19e9c08
+      internalID: -672100138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_21
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1758
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35446cc65772368438fa4a55b2a304e2
+      internalID: 826596398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1343
+        width: 1174
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f11dc71ce96da43ba8ba6a5b67e1b8
+      internalID: 1673095990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_23
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1736
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43054f43246b01d4cb9db4a5f8d5f4f8
+      internalID: -572446875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_24
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1729
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e70f89153760b40a50c5748952693b
+      internalID: -1475473386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_25
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1722
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe2d20cc69b2cf46bcba3c648633eb1
+      internalID: 725265031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_26
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1715
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c228df345fcbb4b9482eec07f8ccac
+      internalID: -1215957686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_27
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1708
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd96c95aa0049f7438beac878ad0dc0f
+      internalID: 890978278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_28
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1700
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb722731ff39c64cb612ce6fe5fcd7a
+      internalID: -1904039318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_29
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1364
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f06e62c93a60ed47a8518840d9f896d
+      internalID: 2099752786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_30
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1340
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fff581626449594bacc1bdae051fcff
+      internalID: 203509397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_31
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1357
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66028e714b445740a45b7dc8e31b4ba
+      internalID: -1806435629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_32
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1350
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7117ec6930bf06f4a9a286034eb4bf7e
+      internalID: -524805362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_33
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1335
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1717b3d49e4cc44b390a5fe57cc2a8
+      internalID: 1959702628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_34
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1335
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a0947dad4c611448a214a0a1ee1314
+      internalID: 191480186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_35
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1328
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5ad603aabba5548a517ef8a820adfc
+      internalID: -1478781004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_36
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1319
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfb8372a3eb6d14fac4e42c62f5b995
+      internalID: 1274736490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_37
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1167
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d66e888094b7242a603689570a6947
+      internalID: -193068817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_38
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1167
+        width: 1117
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe1f6791ed4e814cbf65c8143357b88
+      internalID: 1816433052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_39
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1160
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5746d5cabd18d443a2e921661276c87
+      internalID: -1445220807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_40
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 1160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f45fd61491d65408430e01b0b77ad1
+      internalID: -1049358971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_41
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 692
+        width: 1174
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad71ab0d19951eb428fcd03c1d76549b
+      internalID: -388241360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_42
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1ce4b5d3371cc47969a20950fef2b4
+      internalID: -1872815725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_43
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1138
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4289d6234ecba64b8c54d31020ae082
+      internalID: -1883244149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_44
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1131
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cf0dfae7695894ba72ef6aad26b9ca
+      internalID: 1922485581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_45
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1095
+        width: 1108
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dd2f794b2c7834cbbfdbbf7d14d756
+      internalID: -759437288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 662
+        width: 1197
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb31f5e8de9f9a42bfe813f7654ee9b
+      internalID: -1515105716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_47
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1066
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19437cd04fc31cb42b54f96e73cc9a70
+      internalID: 1363356236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_48
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1052
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0bbf783c56cd240a3954fcbf69a883
+      internalID: -57658951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_49
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 707
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2febcc315cb073449aa967fd1f182d17
+      internalID: 1648922771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_50
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 700
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca63898535dcd34448af9192a0817f24
+      internalID: -255989391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_51
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 693
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c6e61c1875d0642a7b89767dae380a
+      internalID: -203997687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_52
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 686
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ccb5d2aaf8f314e9cfcb2a2c8695be
+      internalID: -628471625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_53
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 687
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec9b97b8216f1b44bad807e5123f8b6
+      internalID: -1536403094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 670
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3b90184f635e6429304bf12da0d19b
+      internalID: -237314716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_55
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 678
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf9ae63ae9aa534e82b6434668088d1
+      internalID: 2043211205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_56
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 680
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aacd94b451c75e4ab15d27d26a62487
+      internalID: 460827757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_57
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 671
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb6533122e889a4b80498e172431398
+      internalID: -989541432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_58
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 662
+        width: 1114
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c44bbc506faf146bd93348bb77efdf
+      internalID: -751827908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_59
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 476
+        width: 1117
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbde3ee5df7c3cd42a034015fe319b0b
+      internalID: -407608789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_60
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b111ec835dc05964c9ac5197b1ffb8e2
+      internalID: -664391011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_61
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 461
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f96e8524330b8f4cb2afdb7a3a8646c
+      internalID: -1967428568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_62
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 447
+        width: 1088
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08962b93015160408ed025d497f7dd0
+      internalID: -899876690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_63
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 1172
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e376fd1abb7174882ed587a3efa33d
+      internalID: 870444856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 1197
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787592cdc98da9c4b80a4bfb7fcdbf16
+      internalID: 1029061671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_65
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 432
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e962fab4fbcce14cab75e2a36ef6de4
+      internalID: 1205936366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9240307aff53f144e9d13e64d77d94d3
+      internalID: -1954038095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_67
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c8caa8adecf0468cfd43e49e16b43
+      internalID: -196582734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ce28b190896784eabbeeaa483278b9
+      internalID: -1147703303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_69
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bf96c9bbecd12459338be02276328e
+      internalID: 1432495376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_70
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 8
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2645bc17ff6557947b866396b84e28b9
+      internalID: 42289781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarButtons_71
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c25374a7b9e0e4eabbb6501c97ee22
+      internalID: -866230405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      StarButtons_0: -1814829134
+      StarButtons_1: -103961077
+      StarButtons_10: 1496805888
+      StarButtons_11: -888874680
+      StarButtons_12: 519396064
+      StarButtons_13: -1786972092
+      StarButtons_14: -1038753401
+      StarButtons_15: 594530048
+      StarButtons_16: -828300852
+      StarButtons_17: 585692264
+      StarButtons_18: 626409052
+      StarButtons_19: -708264562
+      StarButtons_2: -415789609
+      StarButtons_20: -672100138
+      StarButtons_21: 826596398
+      StarButtons_22: 1673095990
+      StarButtons_23: -572446875
+      StarButtons_24: -1475473386
+      StarButtons_25: 725265031
+      StarButtons_26: -1215957686
+      StarButtons_27: 890978278
+      StarButtons_28: -1904039318
+      StarButtons_29: 2099752786
+      StarButtons_3: 2050088946
+      StarButtons_30: 203509397
+      StarButtons_31: -1806435629
+      StarButtons_32: -524805362
+      StarButtons_33: 1959702628
+      StarButtons_34: 191480186
+      StarButtons_35: -1478781004
+      StarButtons_36: 1274736490
+      StarButtons_37: -193068817
+      StarButtons_38: 1816433052
+      StarButtons_39: -1445220807
+      StarButtons_4: 1276652853
+      StarButtons_40: -1049358971
+      StarButtons_41: -388241360
+      StarButtons_42: -1872815725
+      StarButtons_43: -1883244149
+      StarButtons_44: 1922485581
+      StarButtons_45: -759437288
+      StarButtons_46: -1515105716
+      StarButtons_47: 1363356236
+      StarButtons_48: -57658951
+      StarButtons_49: 1648922771
+      StarButtons_5: -1713619260
+      StarButtons_50: -255989391
+      StarButtons_51: -203997687
+      StarButtons_52: -628471625
+      StarButtons_53: -1536403094
+      StarButtons_54: -237314716
+      StarButtons_55: 2043211205
+      StarButtons_56: 460827757
+      StarButtons_57: -989541432
+      StarButtons_58: -751827908
+      StarButtons_59: -407608789
+      StarButtons_6: 815124356
+      StarButtons_60: -664391011
+      StarButtons_61: -1967428568
+      StarButtons_62: -899876690
+      StarButtons_63: 870444856
+      StarButtons_64: 1029061671
+      StarButtons_65: 1205936366
+      StarButtons_66: -1954038095
+      StarButtons_67: -196582734
+      StarButtons_68: -1147703303
+      StarButtons_69: 1432495376
+      StarButtons_7: 1382481742
+      StarButtons_70: 42289781
+      StarButtons_71: -866230405
+      StarButtons_8: -345355875
+      StarButtons_9: 559919522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
