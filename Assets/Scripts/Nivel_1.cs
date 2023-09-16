@@ -4,9 +4,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
 public class Nivel_1 : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +21,6 @@ public class Nivel_1 : MonoBehaviour
 
     public void back_button() {
         SceneManager.LoadScene("Menu");
+        
     }
 }
