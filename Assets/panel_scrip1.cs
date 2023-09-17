@@ -20,7 +20,7 @@ public class panel_scrip1 : MonoBehaviour
     void Start()
     {
         target_panel.gameObject.SetActive(true);
-        if (counter > 1 )
+        if (counter >= 1 )
         {
             target_panel.gameObject.SetActive(false);
         }
