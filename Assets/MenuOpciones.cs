@@ -18,4 +18,9 @@ public class MenuOpciones : MonoBehaviour
         audioMixer.SetFloat("VolumenFX", volumenfx);
     }
 
+    public void CambiarCalidad(int index)
+    {
+        QualitySettings.SetQualityLevel(index);
+    }
+
 }
