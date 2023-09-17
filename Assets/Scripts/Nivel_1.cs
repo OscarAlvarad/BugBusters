@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Nivel_1 : MonoBehaviour
 {
+    public GameObject target; 
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,11 @@ public class Nivel_1 : MonoBehaviour
         
     }
 
+    
+
     public void back_button() {
         SceneManager.LoadScene("Menu");
-        
     }
+
+
 }
