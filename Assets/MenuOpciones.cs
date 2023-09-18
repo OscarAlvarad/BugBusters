@@ -14,11 +14,7 @@ public class MenuOpciones : MonoBehaviour
 
     public Slider volumeSlider;
 
-    void start()
-    {
 
-    }
-    
     public void CambiarVolumen(float volumen)
     {
   
