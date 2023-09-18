@@ -13,24 +13,32 @@ public class PlayerMoveScript : MonoBehaviour
     public float speedForce;
     public float jumpForce;
     public float waitJump;
+    public Animator anim;
+    public SpriteRenderer spr;
 
     public void clickLeft()
     {
         isLeft = true;
+        anim.SetTrigger("Run");
+        spr.flipX = false;
     }
 
     public void releaseLeft()
     {
         isLeft = false;
+        anim.SetTrigger("Idle");
     }
 
     public void clickRight()
     {
         isRight = true;
+        anim.SetTrigger("Run");
+        spr.flipX = true;
     }
     public void releaseRight()
     {
         isRight = false;
+        anim.SetTrigger("Idle");
     }
 
     public void clickJump()

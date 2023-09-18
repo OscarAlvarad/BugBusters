@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdd131733a9cc534ebf494f78dfc7f2a
+guid: 27d407b5969aa3540bb73c8afec044c3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,106 +123,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Carlos Espera_0
+      name: Carlos - 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38b29d4341bd7ff4c836b14af33bf4d3
-      internalID: -1601359776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Carlos Espera_1
-      rect:
-        serializedVersion: 2
-        x: 14
+        x: 148
         y: 0
-        width: 43
-        height: 97
+        width: 426
+        height: 973
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dac42fb14740fe4692c316e43d06792
-      internalID: 880259935
+      spriteID: 566e11fa6bf567543bbd71dc3aeaa58f
+      internalID: 1480189595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carlos Espera_2
+      name: Carlos - 1_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 28
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2907eb58e78d80342b5056105414c100
-      internalID: 1933438843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Carlos Espera_3
-      rect:
-        serializedVersion: 2
-        x: 78
+        x: 849
         y: 0
-        width: 43
-        height: 97
+        width: 422
+        height: 973
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4b73ea85dcdae24da2748c6ef5e8b6a
-      internalID: 473051164
+      spriteID: a4d63581c1777d046b5b246ebe5c284d
+      internalID: -1261402917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carlos Espera_4
+      name: Carlos - 1_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 44
-        width: 12
-        height: 6
+        x: 1546
+        y: 0
+        width: 425
+        height: 973
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c72ed569b484ea645bd9e2820a510041
-      internalID: -458110410
+      spriteID: 5ea6e6218351a7449a2fb9759d7b11ce
+      internalID: 1174383781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carlos - 1_3
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 0
+        width: 482
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215d792455ac7284391e88330784e1ac
+      internalID: 454282064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carlos - 1_4
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 0
+        width: 443
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681891e5f0c6f8740bb76dc6ef01dd9a
+      internalID: 1872066727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carlos - 1_5
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 0
+        width: 425
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676a32383d41003438e374c2b778dae1
+      internalID: -81951047
       vertices: []
       indices: 
       edges: []
@@ -238,11 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Carlos Espera_0: -1601359776
-      Carlos Espera_1: 880259935
-      Carlos Espera_2: 1933438843
-      Carlos Espera_3: 473051164
-      Carlos Espera_4: -458110410
+      Carlos - 1_0: 1480189595
+      Carlos - 1_1: -1261402917
+      Carlos - 1_2: 1174383781
+      Carlos - 1_3: 454282064
+      Carlos - 1_4: 1872066727
+      Carlos - 1_5: -81951047
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
