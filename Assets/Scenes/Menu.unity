@@ -494,7 +494,7 @@ MonoBehaviour:
       - m_Target: {fileID: 386571187}
         m_TargetAssemblyTypeName: Menu_Opciones, Assembly-CSharp
         m_MethodName: CambiarCalidad
-        m_Mode: 0
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -847,7 +847,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0.0001
-  m_MaxValue: 1
+  m_MaxValue: 3
   m_WholeNumbers: 0
   m_Value: 0.001
   m_OnValueChanged:
@@ -1659,7 +1659,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6395935885854373022, guid: 4f40c861d04c14f468394cc3fd06e771, type: 2}
   m_audioClip: {fileID: 8300000, guid: ed233e3196505e74a9f105c22bd7562c, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1672,7 +1672,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
@@ -2117,7 +2117,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.00090009003
+  m_FillAmount: 0.00030001003
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
