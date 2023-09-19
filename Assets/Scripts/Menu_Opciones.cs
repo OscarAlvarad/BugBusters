@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.Events;
 using Unity.VisualScripting;
 using TMPro;
+
 
 public class Menu_Opciones : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class Menu_Opciones : MonoBehaviour
     /* 
       Este Script maneja las opciones del menu y que los botones del menu hagan sonido
      */
+   // const string PrefName = "optionvalue";
 
     [SerializeField] private AudioMixer Audiomixer_1;
     [SerializeField] private Slider Volume_Slider;
@@ -25,7 +28,9 @@ public class Menu_Opciones : MonoBehaviour
         Button_audio.Play();
     }
 
+   
 
+    
     public void Start()
     {
         if (PlayerPrefs.HasKey("musicVolume"))
@@ -46,13 +51,12 @@ public class Menu_Opciones : MonoBehaviour
             SetFXVolume();
         }
 
-        if (PlayerPrefs.HasKey("Quality"))
-        {
-            GetCalidad(PlayerPrefs.GetInt("Quality"));
-        } else
-        {
+        
+        calidad.value = PlayerPrefs.GetInt("Quality", 0);
+            
 
-        }
+        
+
 
     }
 
@@ -90,11 +94,7 @@ public class Menu_Opciones : MonoBehaviour
 
     }
 
-    public void GetCalidad(int index)
-    {
-        QualitySettings.SetQualityLevel(index);
-    }
-
+ 
 
 
 }
