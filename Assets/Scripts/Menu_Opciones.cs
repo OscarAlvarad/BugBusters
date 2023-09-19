@@ -13,9 +13,8 @@ public class Menu_Opciones : MonoBehaviour
 {
 
     /* 
-      Este Script maneja las opciones del menu y que los botones del menu hagan sonido
+      Este Script maneja las opciones del menu y que los botones del menu hagan sonido asi como el nivel de calidad en la imagen
      */
-   // const string PrefName = "optionvalue";
 
     [SerializeField] private AudioMixer Audiomixer_1;
     [SerializeField] private Slider Volume_Slider;
@@ -28,9 +27,6 @@ public class Menu_Opciones : MonoBehaviour
         Button_audio.Play();
     }
 
-   
-
-    
     public void Start()
     {
         if (PlayerPrefs.HasKey("musicVolume"))
@@ -51,12 +47,14 @@ public class Menu_Opciones : MonoBehaviour
             SetFXVolume();
         }
 
-        
-        calidad.value = PlayerPrefs.GetInt("Quality", 0);
-            
-
-        
-
+        if (PlayerPrefs.HasKey("Quality"))
+        {
+            calidad.value = PlayerPrefs.GetInt("Quality", 0);
+        }
+        else
+        {
+            calidad.value =0;
+        }
 
     }
 
@@ -86,15 +84,19 @@ public class Menu_Opciones : MonoBehaviour
         SetMusicVolume();
     }
 
-    public void CambiarCalidad(int index)
+    public void CambiarCalidad_2()
     {
-        QualitySettings.SetQualityLevel(index);
-        int index_number = QualitySettings.GetQualityLevel();
-        PlayerPrefs.SetInt("Quality",index_number);
+        int calidad_value = calidad.value;
+        QualitySettings.SetQualityLevel(calidad_value);
+        int to_PlayerPrefs = QualitySettings.GetQualityLevel();
+        PlayerPrefs.SetInt("Quality", to_PlayerPrefs);
+
+        // Calidad es el dropdown, con int calidad_value = calidad.value se guarda el valor del dropdown
+        // calidad_value se guarda en QualitySettings, se llama ese valor a to_playerprefs y este lo guara en PlayerPrefs bako "Quality"
 
     }
 
- 
+
 
 
 }
