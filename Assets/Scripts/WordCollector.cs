@@ -2,21 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageObjects : MonoBehaviour
+public class WordCollector : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.CompareTag("Player"))
-        {
-            collision.transform.GetComponent<PlayerRespawn>().PlayerDamaged();
+        if (collision.CompareTag("Player"))
+        { 
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            FindAnyObjectByType<WordManager>().AllWordCollected(); 
             Destroy(gameObject, 0.5f);
         }
     }
-
-
-
-
-
 }
