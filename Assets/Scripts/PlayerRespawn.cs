@@ -10,9 +10,17 @@ public class PlayerRespawn : MonoBehaviour
 
     private float checkPointPositionX, checkPointPositionY;
 
+   
+
     //public Animator animator;
     private void Start()
     {
+        //Para debugeo
+        //PlayerPrefs.SetFloat("checkPointPositionX", 0);
+        //PlayerPrefs.SetFloat("checkPointPositionY", 0);
+
+
+
         life = hearts.Length;
 
         if(PlayerPrefs.GetFloat("checkPointPositionX")!= 0)

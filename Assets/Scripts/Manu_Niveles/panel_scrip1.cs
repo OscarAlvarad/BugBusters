@@ -11,15 +11,18 @@ public class panel_scrip1 : MonoBehaviour
 
    // para hide_panel
     [SerializeField] public GameObject target_panel;
+    public Dialogue_script dialogue_Script;
     public Button button;
+   
+
+
     public static int counter;
-    bool text_finished = false;
-    Dialogue_script dialogue_Script;
+    public bool text_finished = false;
+    
 
     void Start()
     {
-        Dialogue_script dialogue_Script = GetComponent<Dialogue_script>();
-        bool text_finished = dialogue_Script.finished;
+        text_finished = dialogue_Script.finished;
 
         button.interactable = false;
 
@@ -30,9 +33,9 @@ public class panel_scrip1 : MonoBehaviour
             }
     }
 
-    private void update()
+    private void Update()
     {
-        bool text_finished = dialogue_Script.finished;
+        text_finished = dialogue_Script.finished;
         if (text_finished)
         {
             button.interactable = true; 
@@ -43,13 +46,21 @@ public class panel_scrip1 : MonoBehaviour
         }
     }
 
-    public void hide_panel()
+    public void hide_panel_first_time()
     {
         counter++;
         target_panel.gameObject.SetActive(false);
     }
 
+    public void hide_panel()
+    {
+        target_panel.gameObject.SetActive(false);
+    }
+
     
-    
+
+
+
+
 
 }
