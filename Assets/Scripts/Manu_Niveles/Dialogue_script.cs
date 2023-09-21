@@ -15,7 +15,6 @@ public class Dialogue_script : MonoBehaviour
     public bool finished = false;
 
     public string[] lines;
-    public bool islinesempy = false;
     public int lengthofline = 0;
     public float textspeed = 0.1f;
     int index = 0;
