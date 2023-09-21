@@ -27,7 +27,10 @@ public class PlayerRespawn : MonoBehaviour
         {
             Destroy(hearts[0].gameObject);
             //animator.Play("Hit");
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.Save();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
         }
         else if (life < 2)
         {
