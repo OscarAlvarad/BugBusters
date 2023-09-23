@@ -27,6 +27,7 @@ public class OpcionesGame : MonoBehaviour
 
     public void MenuNiveles()
     {
+        PlayerPrefs.DeleteAll();
         Time.timeScale = 1;
         SceneManager.LoadScene("Nivel 1");
     }
