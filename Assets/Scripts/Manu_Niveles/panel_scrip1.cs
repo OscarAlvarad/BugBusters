@@ -14,6 +14,7 @@ public class panel_scrip1 : MonoBehaviour
     public Dialogue_script dialogue_Script;
     public Button button;
    
+    
 
 
     public static int counter;
@@ -22,6 +23,7 @@ public class panel_scrip1 : MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.DeleteAll();
         text_finished = dialogue_Script.finished;
 
         button.interactable = false;
