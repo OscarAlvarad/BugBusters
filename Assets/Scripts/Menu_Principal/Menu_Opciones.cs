@@ -16,6 +16,8 @@ public class Menu_Opciones : MonoBehaviour
       Este Script maneja las opciones del menu y que los botones del menu hagan sonido asi como el nivel de calidad en la imagen
      */
 
+    
+
     [SerializeField] private AudioMixer Audiomixer_1;
     [SerializeField] private Slider Volume_Slider;
     [SerializeField] private Slider FX_Slider;
@@ -29,6 +31,7 @@ public class Menu_Opciones : MonoBehaviour
 
     public void Start()
     {
+        
         if (PlayerPrefs.HasKey("musicVolume"))
         {
             Load_Music_Volume();

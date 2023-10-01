@@ -35,7 +35,17 @@ public class PlayerRespawn : MonoBehaviour
         {
             Destroy(hearts[0].gameObject);
             //animator.Play("Hit");
-            PlayerPrefs.DeleteAll();
+
+            if (PlayerPrefs.HasKey("checkPointPositionX"))
+            {
+                PlayerPrefs.DeleteKey("checkPointPositionX");
+                Debug.Log("Checkpoint position X deleted");
+            }
+            if (PlayerPrefs.HasKey("checkPointPositionY"))
+            {
+                PlayerPrefs.DeleteKey("checkPointPositionY");
+                Debug.Log("Checkpoint position Y deleted");
+            }
             PlayerPrefs.Save();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             
