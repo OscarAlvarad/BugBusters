@@ -164,6 +164,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Formas_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 409
+        width: 394
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b0c128b3dc4214883e503e44b41b46
+      internalID: -2019893229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -177,6 +198,7 @@ TextureImporter:
     nameFileIdTable:
       Formas_0: 543760169
       Formas_1: 186274692
+      Formas_2: -2019893229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
