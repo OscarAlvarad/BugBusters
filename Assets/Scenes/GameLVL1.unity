@@ -2307,6 +2307,7 @@ Transform:
   - {fileID: 963968977}
   - {fileID: 191273143}
   - {fileID: 2066029444}
+  - {fileID: 2121461096}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &376600408
@@ -13404,7 +13405,7 @@ GameObject:
   - component: {fileID: 650919541}
   - component: {fileID: 650919540}
   - component: {fileID: 650919539}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HelpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13458,8 +13459,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.2
-  m_fontSizeBase: 0.2
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13524,8 +13525,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.98, y: 0.53}
-  m_SizeDelta: {x: 3.1713, y: 2.0808}
+  m_AnchoredPosition: {x: 0, y: 492}
+  m_SizeDelta: {x: 913.9699, y: 483.2369}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &658958791
 GameObject:
@@ -15155,7 +15156,6 @@ MonoBehaviour:
   frozen: 0
   text_started: 0
   button_pressed_flag: 0
-  WriteLineBreak: 0
   PanelCounter: 0
   lines:
   - ' Hello there! Soy Barranquito y te ayudare en tu aventura.'
@@ -15165,7 +15165,7 @@ MonoBehaviour:
   - Cuando selecciones la palabra correcta podras usar el portal a tu izquierda para
     ir a la siguiente escena. Completa la ultima y desbloquearas el siguiente nivel.
   lengthofline: 0
-  textspeed: 0.1
+  textspeed: 0.006
 --- !u!114 &1016367985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15205,7 +15205,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1016367987
 Canvas:
   m_ObjectHideFlags: 0
@@ -15215,7 +15215,7 @@ Canvas:
   m_GameObject: {fileID: 1016367983}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 2
+  m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -15238,18 +15238,17 @@ RectTransform:
   m_GameObject: {fileID: 1016367983}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1905964336}
   - {fileID: 1033536106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -9.59, y: 1.88}
-  m_SizeDelta: {x: 6.0879, y: 8.7495}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1033536105
 GameObject:
   m_ObjectHideFlags: 0
@@ -15261,7 +15260,7 @@ GameObject:
   - component: {fileID: 1033536106}
   - component: {fileID: 1033536108}
   - component: {fileID: 1033536107}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15287,8 +15286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9.58, y: -0.27}
-  m_SizeDelta: {x: 6.4469, y: 9.9541}
+  m_AnchoredPosition: {x: -28.853577, y: -18.824219}
+  m_SizeDelta: {x: 374.8795, y: 264.4111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1033536107
 MonoBehaviour:
@@ -15339,7 +15338,7 @@ GameObject:
   - component: {fileID: 1050351160}
   - component: {fileID: 1050351162}
   - component: {fileID: 1050351161}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Barranquito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15362,8 +15361,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.37, y: 6.4132}
-  m_SizeDelta: {x: 1.9026, y: 1.8151}
+  m_AnchoredPosition: {x: -8764, y: 2228}
+  m_SizeDelta: {x: 637.9311, y: 625.91}
   m_Pivot: {x: 14.51908, y: 4.5332637}
 --- !u!114 &1050351161
 MonoBehaviour:
@@ -15381,7 +15380,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -17770,7 +17769,7 @@ GameObject:
   - component: {fileID: 1505869993}
   - component: {fileID: 1505869995}
   - component: {fileID: 1505869994}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17845,8 +17844,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.25
-  m_fontSizeBase: 0.25
+  m_fontSize: 76
+  m_fontSizeBase: 76
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -19110,7 +19109,7 @@ GameObject:
   - component: {fileID: 1639372625}
   - component: {fileID: 1639372624}
   - component: {fileID: 1639372623}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: OkButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19194,10 +19193,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -19228,8 +19227,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.75, y: -3.7477}
-  m_SizeDelta: {x: 1.7285, y: 0.3364}
+  m_AnchoredPosition: {x: -1409, y: -1275.8}
+  m_SizeDelta: {x: 386.9127, y: 116.0026}
   m_Pivot: {x: -3.5199726, y: -4.7447734}
 --- !u!1 &1646257986
 GameObject:
@@ -20566,11 +20565,11 @@ RectTransform:
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1016367988}
+  m_Father: {fileID: 2121461096}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.191, y: -7.091}
+  m_AnchoredPosition: {x: -533.399, y: -1085.211}
   m_SizeDelta: {x: 0.8579, y: 0.7707}
   m_Pivot: {x: -3.5199726, y: -4.7447734}
 --- !u!114 &1905964337
@@ -21963,6 +21962,108 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 733157044193460915, guid: dc2aae62682826c489f1852d1d0e4333, type: 3}
   m_PrefabInstance: {fileID: 1952648637}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2121461095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121461096}
+  - component: {fileID: 2121461099}
+  - component: {fileID: 2121461098}
+  - component: {fileID: 2121461097}
+  m_Layer: 0
+  m_Name: Barranquito
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2121461096
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121461095}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1905964336}
+  m_Father: {fileID: 368161699}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 539.7751, y: 1079.0286}
+  m_SizeDelta: {x: 1080, y: 2160}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2121461097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121461095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2121461098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121461095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &2121461099
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121461095}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

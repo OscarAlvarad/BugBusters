@@ -58,7 +58,7 @@ public class PlayerMoveScript : MonoBehaviour
       
         if (!frozen)
         {
-            Debug.Log("Not frozen");
+         //   Debug.Log("Not frozen");
             if (isLeft)
             {
                 rb.AddForce(new Vector2(-speedForce, 0) * Time.deltaTime);
@@ -78,10 +78,10 @@ public class PlayerMoveScript : MonoBehaviour
             }
         } else
         {
-            Debug.Log("Frozen");
+          //  Debug.Log("Frozen");
             if (Player_Help.finished)
             {
-                Debug.Log("unfrozen");
+             //   Debug.Log("unfrozen");
             }
         }  
     }

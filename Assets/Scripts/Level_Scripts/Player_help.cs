@@ -22,8 +22,6 @@ public class Player_help : MonoBehaviour
     public bool frozen = false;
     public bool text_started = false;
     public bool button_pressed_flag = false;
-    public bool WriteLineBreak = false;
-
 
     public int PanelCounter = 0;
 
@@ -49,59 +47,63 @@ public class Player_help : MonoBehaviour
   
         float position_x = Player.transform.position.x;
         player_in_position = IsPlayerInPosition(position_x);
-              
-        if (player_in_position)
+       // Debug.Log("Position on X: " + Player.transform.position.x);     
+
+        if (player_in_position )
         {
-            frozen = true;
-            if (PanelCounter < 1) { Panel.SetActive(true); }
-            PanelCounter++;
-                       
-            if (!text_started)
-            {
-                StartText();
-                text_started = true;
-            }
-                       
-            if (finished) {
-               
-                if (!button_pressed_flag) 
-                {
-                    help_ok_button.gameObject.SetActive(true);
-                    button_pressed_flag = true; 
-                }
-                
-                frozen = false;
-            }
+            TutorialTextHandler();
 
         } else {frozen = false;}
 
+        finished = Isfinished();
+    }
+
+    private bool Isfinished()
+    {
+        return finished;
     }
 
     public void PanelShow()
     {
         Tutorial_text.SetText("");
-        Panel.SetActive(true);
         Tutorial_text.gameObject.SetActive(true);
-        help_ok_button.gameObject.SetActive(true);
-        StartText();
+        text_started = false;
+        PanelCounter = 0;
+        TutorialTextHandler();
     }
 
     private bool IsPlayerInPosition(float PositionInX)
     {
-        return PositionInX < 1.7 && PositionInX > 1.3;
+        return PositionInX > -2.7 && PositionInX < 1.3;
+    }
+
+    public void TutorialTextHandler()
+    {
+        if (PanelCounter < 1) { Panel.SetActive(true); }
+        PanelCounter++; 
+
+        if (!text_started)
+        {
+            StartText();
+            text_started = true;
+        }
+
+        if (finished) { help_ok_button.gameObject.SetActive(true); }
+           else { help_ok_button.gameObject.SetActive(false); }
     }
 
     public void HelpOkButtonFunction()
     {
-
         if (text_started)
         {
             switch (OkButtonTracker)
             {
                 case 0:
+                    Tutorial_text.SetText("");
                     WriteNextLine();                    
                     break;    
                 case 1:
+                    Tutorial_text.SetText("");
                     WriteNextLine();
                     break;
                 default:
@@ -110,6 +112,7 @@ public class Player_help : MonoBehaviour
         }
 
         OkButtonTracker++;
+        Debug.Log(OkButtonTracker);
 
         if (OkButtonTracker >= 3)
         {
@@ -124,6 +127,7 @@ public class Player_help : MonoBehaviour
     public void StartText()
     {
         DialogueIndex= 0;
+        Tutorial_text.SetText("");
         StartCoroutine(Writeline());
     }
 
@@ -136,7 +140,7 @@ public class Player_help : MonoBehaviour
             foreach (char item in lines[DialogueIndex].ToCharArray())
             {
                 Tutorial_text.text += item;
-                if (WriteLineBreak) { Tutorial_text.SetText(""); break; }
+    
                 yield return new WaitForSeconds(textspeed);
             }
         }
@@ -151,7 +155,7 @@ public class Player_help : MonoBehaviour
 
     public void WriteNextLine()
     {
-        finished = false;
+       
         if (DialogueIndex < lengthofline-1)
         {
             DialogueIndex++;
@@ -161,7 +165,7 @@ public class Player_help : MonoBehaviour
         {
             Debug.Log("Lmao");
         }
-        finished = true;
+        
     }
 
 }
